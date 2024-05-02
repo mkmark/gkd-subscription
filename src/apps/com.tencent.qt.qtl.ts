@@ -10,7 +10,7 @@ export default defineGkdApp({
       quickFind: true,
       activityIds: ['com.tencent.zone.main.MainZoneHomeActivity'],
       rules: '[id="com.tencent.qt.qtl:id/notice_close_pic"]',
-      snapshotUrls: ['https://i.gkd.li/snapshot/1714630933969'],
+      snapshotUrls: [],
     },
     {
       key: 2,
@@ -18,7 +18,7 @@ export default defineGkdApp({
       quickFind: true,
       activityIds: ['com.tencent.zone.main.MainZoneHomeActivity'],
       rules: '[id="com.tencent.qt.qtl:id/iv_dialog_close"]',
-      snapshotUrls: ['https://i.gkd.li/snapshot/1714631286349'],
+      snapshotUrls: [],
     },
   ],
 });

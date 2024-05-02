@@ -12,5 +12,5 @@ export default defineGkdSubscription({
   supportUri: 'https://github.com/mkmark/gkd-subscription',
   categories,
   globalGroups,
-  apps: await batchImportApps(`${import.meta.dirname}/apps`),
+  apps: await batchImportApps('src/apps'),
 });
